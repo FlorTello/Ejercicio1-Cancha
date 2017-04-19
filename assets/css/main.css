@@ -1,0 +1,64 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+.campo{
+  margin: 10%;
+  width: 1000px;
+  height: 500px;
+  background-color: #8eb27f ;
+
+}
+.cancha{
+  background-color: #8eb27f ;
+  position: relative;
+  width: 95%;
+  height: 90%;
+  margin: 0 auto;
+  top: 5%;
+  border: solid 1px white;
+}
+.aLeft{
+  position: relative;
+  width: 15%;
+  height: 50%;
+  border: solid 1px white;
+  top: 25%;
+  left: -1px;
+}
+.aRight{
+  position: relative;
+  width: 15%;
+  height: 50%;
+  border: solid 1px white;
+  bottom: 25%;
+  float: right;
+  right: -1px;
+}
+.pelota{
+  width: 15px;
+  height: 15px;
+  border: solid 1px white;
+  background-color: white;
+  border-radius: 10px;
+  position: relative;
+}
+#pelota-cancha{
+  left: 45%;
+  top: 20%;
+}
+.aLeft .pelota{
+  float: right;
+}
+.aRight .pelota{
+  float: left;
+}
+.circulo{
+  position: relative;
+  width: 84px;
+  height: 84px;
+  border: solid 1px white;
+  border-radius: 42px;
+  bottom: 15%;
+  left: 45%;
+}
