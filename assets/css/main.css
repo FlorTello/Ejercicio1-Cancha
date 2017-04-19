@@ -48,10 +48,11 @@ body{
   top: 20%;
 }
 .aLeft .pelota{
-  right: 0;
+  right: -10px;
 }
 .aRight .pelota{
   bottom: 0;
+  left: -17px;
 }
 .circulo{
   position: relative;
